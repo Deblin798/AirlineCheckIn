@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create a two-column layout */
+  .column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .ancillaryService {
+    width: 100px;
+    padding: 5px;
+    width: fit-content;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* .add-passenger-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  .add-passenger-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .add-passenger-form label {
+    margin-bottom: 10px;
+  }
+  
+  .add-passenger-form input[type="text"],
+  .add-passenger-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-passenger-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-passenger-form button:hover {
+    background-color: #3e8e41;
+  }
+
+  .update-passenger-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .update-passenger-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .update-passenger-form label {
+    margin-bottom: 10px;
+  }
+  
+  .update-passenger-form input[type="text"],
+  .update-passenger-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-passenger-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .update-passenger-form-default-button {
+    background-color: #6cd6f7;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-passenger-form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .filter-passengers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-passengers-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+

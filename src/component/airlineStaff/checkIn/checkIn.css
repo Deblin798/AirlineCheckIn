@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.admin-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.flight-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.flight-details h2 {
+  margin: 0;
+}
+
+.seat-map {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.seat-row {
+  background-color: rgb(255, 255, 255);
+}
+
+.seat-empty {
+  background-color: gray;
+}
+
+.seat.checked-in {
+  background-color: #92ff92;
+}
+
+.seat.wheel-chair {
+  background-color: #b6c7ff;
+}
+
+.seat.infant {
+  background-color: #f5c071;
+}
+
+.seat.selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+.passenger-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.passenger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.passenger.selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+.form {
+  width: 200px;
+}
+
+.filter head {
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  justify-content: baseline;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.filter select {
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  padding-left: 0px;
+}
+
+.ancillary-services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ancillary-service {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ancillary-service input[type="checkbox"] {
+  margin-right: 5px;
+}
